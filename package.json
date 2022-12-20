@@ -16,7 +16,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && javascript-obfuscator ./build --output ./build",
+    "build": "react-scripts build",
+    "build:prod": "react-scripts build && javascript-obfuscator ./build --debug-protection true --output ./build",
+    "obfuscate": "javascript-obfuscator ./build/js --debug-protection true --output ./build/js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
