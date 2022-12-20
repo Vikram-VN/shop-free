@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to setup 
 `git clone https://github.com/Vikram-VN/shop-free`
+
 `cd shop-free`
+
 `yarn install`
+
 `yarn start`
